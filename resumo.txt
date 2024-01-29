@@ -1,0 +1,23 @@
+Estrutura genérica: <tag atributo="valor">conteúdo</tag>
+Indica ao navegador que é um conteúdo HTML5: <!DOCTYPE html>
+Tag que indica ínicio e fim da página: <html>página web</html>
+    - Atributos importantes: lang
+Tag que abriga os metadados da página: <head>metadados</head>
+Tag(metadado) que indica o título exibido na aba do navegador: <title>título</title>
+Tag(metadado) para indicar metadados importantes: <meta>
+    - Atributos importantes: charset, name, content
+Tag que abriga todo o conteúdo na página web: <body>conteúdo</body>
+Tag que abriga textos em destaque (títulos e subtítulos): <h(1 a 6)>texto em destaque</h(1 a 6)>
+Tag que abriga blocos de texto (parágrafos): <p>texto</p>
+Tag que abriga links: <a href="link">texto de exibição</a>
+Tag para gerar quebras de linha em textos: <br>
+Tag para adicionar linhas entre espaços: <hr>
+Tag para agrupar conteúdos em "containers"(não semântico): <div>conteúdo</div> 
+    - Possibilidades semânticas: 
+        - header: cabeçalho
+        - nav: barra de navegação superior
+        - main: conteúdo principal
+        - section: agrupamento de conteúdos  
+        - article: conteúdos individuais
+        - aside: barra de navegação lateral 
+        - footer: rodapé
